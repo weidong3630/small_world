@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">Loading...</div>
+    <!-- 添加模块预加载声明 -->
+    <script type="module" src="./main.js"></script>
+    <!-- 添加模块路径映射 -->
+    <script type="importmap">
+        {
+            "imports": {
+                "DrawUtil": "/small_world/nerve-js/DrawUtil.js"
+            }
+        }
+    </script>
+</body>
+</html>
