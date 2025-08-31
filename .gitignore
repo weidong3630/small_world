@@ -1,2 +1,10 @@
 *.class
 .~
+target/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.log
+.DS_Store
